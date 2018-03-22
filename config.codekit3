@@ -1707,6 +1707,47 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/article\/collapsable1-thumb.jpg": {
+		"ft": 16384,
+		"iS": 56159,
+		"oA": 0,
+		"oAP": "\/img\/article\/collapsable1-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/article\/collapsable1-thumb.png": {
+		"ft": 32768,
+		"iS": 171234,
+		"oA": 0,
+		"oAP": "\/img\/article\/collapsable1-thumb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article\/collapsable2-thumb.jpg": {
+		"ft": 16384,
+		"iS": 58172,
+		"oA": 0,
+		"oAP": "\/img\/article\/collapsable2-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/article\/collapsable3-thumb.jpg": {
+		"ft": 16384,
+		"iS": 103841,
+		"oA": 0,
+		"oAP": "\/img\/article\/collapsable3-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article\/end.jpg": {
 		"ft": 16384,
 		"iS": 119151,
@@ -6951,7 +6992,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 538322692,
-	"displayValue": "longread-ecoles",
+	"displayValue": "lt-longread-ecoles",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-leo"
 	},
@@ -8348,7 +8389,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888\/longread-ecoles",
+	"externalServerAddress": "http:\/\/localhost:8888\/lt-longread-ecoles",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

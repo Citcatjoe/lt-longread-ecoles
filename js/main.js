@@ -1,5 +1,24 @@
 jQuery(document).ready(function($) 
 {
+	$(".btn-reveal").click(function() {
+		if($(this).parent().parent().hasClass('is-collapsed'))
+		{
+			//alert('is-collapsed');
+			$(this).parent().parent().removeClass('is-collapsed');
+			$(this).parent().find('figure').addClass('is-hidden');
+			$(this).parent().find('span').addClass('is-hidden');
+			$(this).html('Masquer');
+		}
+		else
+		{
+			//alert("is-not-collapsed");
+			$(this).parent().parent().addClass("is-collapsed");
+			$(this).parent().find('figure').removeClass('is-hidden');
+			$(this).parent().find('span').removeClass('is-hidden');
+			$(this).html("Révéler");
+		}
+		
+	});
 	
 	// scroll indicator
 	// $('body').progressScroll({
