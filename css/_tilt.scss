@@ -8,10 +8,11 @@
 	//margin: 1.5em 2.5em;
 	color: #fff;
 	perspective: 1000px;
+	margin-bottom: 30px;
 
 	@include breakpoint(xl) { 
          height: 360px;
-         margin-bottom: 30px;
+        //  margin-bottom: 30px;
     }
 
     @include breakpoint(lg) { 

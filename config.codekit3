@@ -1507,11 +1507,41 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/article-card-avalanches.jpg": {
+		"ft": 16384,
+		"iS": 50038,
+		"oA": 0,
+		"oAP": "\/img\/article-card-avalanches.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-card-epicerie.jpg": {
+		"ft": 16384,
+		"iS": 85256,
+		"oA": 0,
+		"oAP": "\/img\/article-card-epicerie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article-card-fioul-lourd.jpg": {
 		"ft": 16384,
 		"iS": 73503,
 		"oA": 0,
 		"oAP": "\/img\/article-card-fioul-lourd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-card-gothard.jpg": {
+		"ft": 16384,
+		"iS": 81330,
+		"oA": 0,
+		"oAP": "\/img\/article-card-gothard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1527,11 +1557,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/article-card-mirabaud.jpg": {
+		"ft": 16384,
+		"iS": 48161,
+		"oA": 0,
+		"oAP": "\/img\/article-card-mirabaud.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-card-montagne.jpg": {
+		"ft": 16384,
+		"iS": 96636,
+		"oA": 0,
+		"oAP": "\/img\/article-card-montagne.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-card-montgommery.jpg": {
+		"ft": 16384,
+		"iS": 94329,
+		"oA": 0,
+		"oAP": "\/img\/article-card-montgommery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-card-mur.jpg": {
+		"ft": 16384,
+		"iS": 71858,
+		"oA": 0,
+		"oAP": "\/img\/article-card-mur.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article-card-parc-adula.jpg": {
 		"ft": 16384,
 		"iS": 73938,
 		"oA": 0,
 		"oAP": "\/img\/article-card-parc-adula.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-card-robots.jpg": {
+		"ft": 16384,
+		"iS": 63077,
+		"oA": 0,
+		"oAP": "\/img\/article-card-robots.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1547,11 +1627,31 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/article-card-ski.jpg": {
+		"ft": 16384,
+		"iS": 72200,
+		"oA": 0,
+		"oAP": "\/img\/article-card-ski.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/article-card-tcherno-30-ans.jpg": {
 		"ft": 16384,
 		"iS": 71720,
 		"oA": 0,
 		"oAP": "\/img\/article-card-tcherno-30-ans.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-card-tcherno-avalanches.jpg": {
+		"ft": 16384,
+		"iS": 75089,
+		"oA": 0,
+		"oAP": "\/img\/article-card-tcherno-avalanches.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2242,16 +2342,6 @@
 		"iS": 10406,
 		"oA": 0,
 		"oAP": "\/img\/placeholder.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/tilt-fioul-lourd.jpg": {
-		"ft": 16384,
-		"iS": 36612,
-		"oA": 0,
-		"oAP": "\/img\/tilt-fioul-lourd.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

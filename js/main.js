@@ -19,6 +19,12 @@ jQuery(document).ready(function($)
 		}
 		
 	});
+
+	// LAZYLOADING DES IMAGES AVEC LA CLASSE "LAZY"
+	$("img.lazy").lazyload({
+	    effect : "fadeIn"
+	});
+
 	
 	// scroll indicator
 	// $('body').progressScroll({

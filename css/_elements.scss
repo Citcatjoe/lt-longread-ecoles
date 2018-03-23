@@ -74,46 +74,46 @@ div.overlay
 // 	margin-bottom: 0;
 // }
 
-nav 
-{
-	width: 70px;
-	//background: red;
-	position: fixed;
-	right: 10px;
-	top: 50%;
-	@include transform(translateY(-50%));
+// nav 
+// {
+// 	width: 70px;
+// 	//background: red;
+// 	position: fixed;
+// 	right: 10px;
+// 	top: 50%;
+// 	@include transform(translateY(-50%));
 
-	ul 
-	{
-		li 
-		{
-			width: 13px;
-			height: 13px;
-			//background: lighten( desaturate( adjust-hue( $flash-color, 23deg ), 94 ), 44 );
-			background: transparent;
-			border: 2px solid lighten( desaturate( adjust-hue( $flash-color, 23deg ), 94 ), 44 );
-			margin: 25px auto 25px auto;
-			border-radius: 50%;
-			cursor: pointer;
-			@include transition(all 0.3s);
+// 	ul 
+// 	{
+// 		li 
+// 		{
+// 			width: 13px;
+// 			height: 13px;
+// 			//background: lighten( desaturate( adjust-hue( $flash-color, 23deg ), 94 ), 44 );
+// 			background: transparent;
+// 			border: 2px solid lighten( desaturate( adjust-hue( $flash-color, 23deg ), 94 ), 44 );
+// 			margin: 25px auto 25px auto;
+// 			border-radius: 50%;
+// 			cursor: pointer;
+// 			@include transition(all 0.3s);
 
-			&:hover
-			{
-				@include transform(scale(1.7));
-				@include transition(all 0.3s);
-				//border: 0;
-			}
+// 			&:hover
+// 			{
+// 				@include transform(scale(1.7));
+// 				@include transition(all 0.3s);
+// 				//border: 0;
+// 			}
 
-			&.is-active
-			{
-				@include transform(scale(1.7));
-				@include transition(all 0.3s);
-				background: $flash-color;
-				border: 0;
-			}
-		}
-	}
-}
+// 			&.is-active
+// 			{
+// 				@include transform(scale(1.7));
+// 				@include transition(all 0.3s);
+// 				background: $flash-color;
+// 				border: 0;
+// 			}
+// 		}
+// 	}
+// }
 
 .video-wrapper
 {
@@ -254,6 +254,12 @@ input
 			}
 		}
 	}
+
+	a 
+	{
+		text-decoration: none !important;
+		border-bottom: 0 !important;
+	}
 }
 
 .newsletter 
@@ -349,6 +355,16 @@ input
 	border-bottom: 1px solid #e1e1e1;
 	border-top: 1px solid #e1e1e1;
 
+	@include breakpoint(md) { 
+		border: 0;
+		background: $gray-aside;
+		margin-left: -30px;
+		margin-right: -30px;
+		width: auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
 	.collapsable--header 
 	{
 		figure 
@@ -376,6 +392,10 @@ input
 	{
 		padding-top: 30px;
 		overflow: hidden;
+
+		@include breakpoint(md) { 
+			color: $gray-aside2
+		}
 	}
 	&.is-collapsed .collapsable--content
 	{
@@ -933,6 +953,11 @@ iframe.custom
 {
 	display: none !important;
 	visibility: none !important;
+}
+
+canvas 
+{
+	background: white;
 }
 
 
