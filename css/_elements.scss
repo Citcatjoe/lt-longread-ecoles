@@ -983,7 +983,8 @@ canvas
 	background: #f5f5f5;
     padding: 15px;
     min-height: 500px;
-    max-height: 500px;
+	max-height: 500px;
+	border: 1px solid #e2e2e2;
 
     @include breakpoint(xs) { 
          //margin-left: -30px;
